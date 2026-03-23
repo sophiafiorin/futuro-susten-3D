@@ -1,21 +1,46 @@
-MIT License
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menu do topo -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#slide1">Slide 1</a></li>
+                <li><a href="#slide2">Slide 2</a></li>
+                <li><a href="#slide3">Slide 3</a></li>
+            </ul>
+        </nav>
+    </header>
 
-Copyright (c) 2026 sophiafiorin
+    <!-- Slide 1 -->
+    <section id="slide1" class="slide">
+        <h1>O que é o Futuro Sustentável?</h1>
+        <p>O futuro sustentável é aquele que equilibra as necessidades de crescimento e desenvolvimento com a proteção dos recursos naturais.</p>
+        <button class="btn" onclick="changeColor()">Clique para saber mais!</button>
+    </section>
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+    <!-- Slide 2 -->
+    <section id="slide2" class="slide">
+        <h1>Importância da Sustentabilidade</h1>
+        <p>Adotar práticas sustentáveis é fundamental para preservar o planeta e garantir qualidade de vida para as futuras gerações.</p>
+    </section>
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+    <!-- Slide 3 -->
+    <section id="slide3" class="slide">
+        <h1>Como podemos contribuir?</h1>
+        <ul>
+            <li>Reduzir o consumo de plásticos</li>
+            <li>Optar por fontes de energia renovável</li>
+            <li>Conservar água e outros recursos naturais</li>
+        </ul>
+    </section>
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+    <script src="script.js"></script>
+</body>
+</html>
