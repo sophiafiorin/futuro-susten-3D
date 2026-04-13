@@ -1,7 +1,8 @@
-<!DOCTYPE html>
+</html><!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+    <meta 
+arset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Futuro Sustentável</title>
     <link rel="stylesheet" href="style.css">
@@ -11,6 +12,7 @@
     <header>
         <nav>
             <ul>
+
                 <li><a href="#slide1">Slide 1</a></li>
                 <li><a href="#slide2">Slide 2</a></li>
                 <li><a href="#slide3">Slide 3</a></li>
@@ -43,4 +45,7 @@
 
     <script src="script.js"></script>
 </body>
-</html>
+</html><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta ch
